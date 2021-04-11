@@ -1,9 +1,24 @@
 fileFormatVersion: 2
-guid: 948eddb1775eca64ba0f36363e48014a
+guid: 73011ae1333629e458277873b3506c8b
 ModelImporter:
   serializedVersion: 20101
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paper
+    second: {fileID: 2100000, guid: 584be358aeb0a764893f7cdcb39fc4bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text
+    second: {fileID: 2100000, guid: bc0c70bd8e01f054fa61c217aeb623a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: text.001
+    second: {fileID: 2100000, guid: 7a06adc791275214ea88cfcb45a4c7ae, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
