@@ -1,14 +1,18 @@
 fileFormatVersion: 2
-guid: e2ba3428bfdad2146b841ac2e90c75af
+guid: d5a1f462c3d29c14e97cfbbab8c2f825
 ModelImporter:
   serializedVersion: 20101
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 52352bea63d40ff43846e40d92774ae1, type: 2}
+      74: -3366041887599853838
+    second: pirate ship|pirate shipAction
+  - first:
+      74: 332886229655959451
+    second: pirate ship|pirate shipAction.001
+  - first:
+      74: -7882927943262382789
+    second: pirate ship|pirate shipAction.002
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
