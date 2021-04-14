@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    public Vector3 position;
-    public Quaternion rotation;
-    public Vector3 localScale;
+    private Vector3 position;
+    private Quaternion rotation;
+    private Vector3 localScale;
 
     public Transform player;
     // Start is called before the first frame update
-    /*void Start()
+    void Start()
     {
         position = this.transform.position;
         rotation = this.transform.rotation;
         localScale = this.transform.localScale;
-    }*/
+    }
 
     // Update is called once per frame
     public void PutDown()

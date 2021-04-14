@@ -16,7 +16,7 @@ public class CamLook : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && look != null)
+        if (Input.GetKeyDown(KeyCode.Space) && look != null)
         {
             look.GetComponent<Pickup>().PutDown();
             look = null;
