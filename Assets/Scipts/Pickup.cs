@@ -9,6 +9,8 @@ public class Pickup : MonoBehaviour
     private Vector3 localScale;
 
     public Transform player;
+
+    public AudioSource PickupSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +30,10 @@ public class Pickup : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && Vector3.Distance(player.position, this.transform.position) <= 5 && CamLook.look == null)
+        {
             CamLook.look = this.gameObject;
+            PickupSound.Play();
+        }
+            
     }
 }

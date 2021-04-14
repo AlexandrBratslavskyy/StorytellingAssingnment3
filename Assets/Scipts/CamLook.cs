@@ -6,6 +6,7 @@ public class CamLook : MonoBehaviour
 {
     Camera cam;
     public static GameObject look = null;
+    public AudioSource PutDownSound;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class CamLook : MonoBehaviour
         {
             look.GetComponent<Pickup>().PutDown();
             look = null;
+            PutDownSound.Play();
         }
 
         if (look == null) return;
